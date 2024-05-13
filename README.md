@@ -1,17 +1,59 @@
-COVID Assessment and Monitoring System
-Overview
+# COVID-19 Patient Management System
 
-The COVID Assessment and Monitoring System is a sophisticated software platform designed to track and manage COVID-19 patient information and health status efficiently. This tool provides healthcare workers and authorities with the means to monitor the virus's spread, store essential patient data, and identify high-risk areas. Through real-time updates and advanced data analytics, this system facilitates prompt responses and well-informed decisions to curb the pandemic's effects.
+This repository contains a comprehensive system for managing COVID-19 patient data, including symptoms, test results, and location tracking. Designed to help healthcare providers manage patient information efficiently, the system supports various operations such as entering new patient data, updating existing records, and generating reports on high-risk locations and patient status.
 
-Key Features
+## Features
 
-Patient Management: Streamline the management and monitoring of COVID-19 patients, including tracking their health status and medical history.
-Symptom Tracking: Record and update patient symptoms to provide an accurate assessment of their condition.
-High-Risk Area Data: Maintain a database of high-risk locations to help identify potential outbreak zones.
-User Interface: A simple and user-friendly interface for seamless navigation and efficient use.
+- **Patient Data Entry**: Input detailed information about patients, including symptoms and travel history.
+- **COVID-19 Test Result Management**: Update and track the COVID-19 test results for patients.
+- **Risk Location Tracking**: Keep a record of high-risk COVID-19 locations that patients have visited.
+- **Patient Recommendations**: Provide COVID-19 health recommendations based on the patient's symptoms and visited locations.
+- **Data Storage**: Maintain a persistent storage of patient data and locations with file handling.
+- **Feedback System**: Collect user feedback to improve system usability.
 
-Technology Stack
+## Getting Started
 
-User Interface: Command line interface for patient information display.
-Backend: Built with C++ to handle data processing and storage.
-Data Storage: Employs text files to store patient details and high-risk location information.
+### Prerequisites
+
+- C++ Compiler (GCC recommended)
+- Basic knowledge of file handling in C++
+
+### Installation
+
+1. Clone the repository:
+   
+  git clone https://github.com/yourusername/covid-patient-management.git
+  cd covid-patient-management
+
+3. Compile the program using your C++ compiler:
+
+  g++ -o patient_management main.cpp
+
+3. Run the compiled program:
+
+  ./patient_management
+
+###Usage
+
+Upon running the program, you will be greeted with a menu that allows you to choose from several options:
+
+    Fill in Patient Details: Enter new patient data.
+    Upload Patient's COVID Test Result by ID: Update COVID-19 test results.
+    Display Updated High-Risk Locations for COVID: List all high-risk locations.
+    Update New COVID Positive Patient's Detail: Add new COVID-19 positive cases.
+    Display COVID Positive Patients Detail: Show details of all COVID-19 positive patients.
+    Exit the Program: Save all changes and exit the program.
+
+--Navigate through the menu by entering the number corresponding to your choice.
+
+###File Structure
+--The data is stored across multiple files in a predefined directory structure:
+
+    Database/Patient Database.txt: Stores patient information.
+    Database/Symptom Database.txt: Contains possible COVID-19 symptoms.
+    Database/COVID location Database.txt: Lists high-risk locations.
+    Database/User Feedback.txt: Captures user feedback on system usability.
+
+##Contributing
+
+Contributions are welcome! If you have suggestions or enhancements, feel free to fork this repository and submit a pull request. You can also open an issue if you find any bugs or have feature requests.
