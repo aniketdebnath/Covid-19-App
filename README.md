@@ -22,7 +22,7 @@ This repository contains a comprehensive system for managing COVID-19 patient da
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/covid-patient-management.git
+git clone https://github.com/aniketdebnath/Covid-19-Monitoring-App.git
 cd covid-patient-management
 ```
 3. Compile the program using your C++ compiler:
