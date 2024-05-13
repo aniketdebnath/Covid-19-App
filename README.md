@@ -31,7 +31,7 @@ g++ -o patient_management main.cpp
 ```
 3. Run the compiled program:
 ```
-  ./patient_management
+./patient_management
 ```
 ### Usage
 
