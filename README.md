@@ -21,39 +21,39 @@ This repository contains a comprehensive system for managing COVID-19 patient da
 ### Installation
 
 1. Clone the repository:
-   
-  git clone https://github.com/yourusername/covid-patient-management.git
-  cd covid-patient-management
-
+```
+git clone https://github.com/yourusername/covid-patient-management.git
+cd covid-patient-management
+```
 3. Compile the program using your C++ compiler:
-
-  g++ -o patient_management main.cpp
-
+```
+g++ -o patient_management main.cpp
+```
 3. Run the compiled program:
-
+```
   ./patient_management
-
-###Usage
+```
+### Usage
 
 Upon running the program, you will be greeted with a menu that allows you to choose from several options:
+```
+Fill in Patient Details: Enter new patient data.
+Upload Patient's COVID Test Result by ID: Update COVID-19 test results.
+Display Updated High-Risk Locations for COVID: List all high-risk locations.
+Update New COVID Positive Patient's Detail: Add new COVID-19 positive cases.
+Display COVID Positive Patients Detail: Show details of all COVID-19 positive patients.
+Exit the Program: Save all changes and exit the program.
+```
+Navigate through the menu by entering the number corresponding to your choice.
 
-    Fill in Patient Details: Enter new patient data.
-    Upload Patient's COVID Test Result by ID: Update COVID-19 test results.
-    Display Updated High-Risk Locations for COVID: List all high-risk locations.
-    Update New COVID Positive Patient's Detail: Add new COVID-19 positive cases.
-    Display COVID Positive Patients Detail: Show details of all COVID-19 positive patients.
-    Exit the Program: Save all changes and exit the program.
-
---Navigate through the menu by entering the number corresponding to your choice.
-
-###File Structure
---The data is stored across multiple files in a predefined directory structure:
-
-    Database/Patient Database.txt: Stores patient information.
-    Database/Symptom Database.txt: Contains possible COVID-19 symptoms.
-    Database/COVID location Database.txt: Lists high-risk locations.
-    Database/User Feedback.txt: Captures user feedback on system usability.
-
-##Contributing
+### File Structure
+The data is stored across multiple files in a predefined directory structure:
+```
+Database/Patient Database.txt: Stores patient information.
+Database/Symptom Database.txt: Contains possible COVID-19 symptoms.
+Database/COVID location Database.txt: Lists high-risk locations.
+Database/User Feedback.txt: Captures user feedback on system usability.
+```
+## Contributing
 
 Contributions are welcome! If you have suggestions or enhancements, feel free to fork this repository and submit a pull request. You can also open an issue if you find any bugs or have feature requests.
